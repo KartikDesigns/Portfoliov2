@@ -504,6 +504,16 @@ p {
     margin: 1rem;
     border-radius: 20px;
   }
+
+  /* Reorder elements on mobile - image first, then content below */
+  .hero-img {
+    order: 1;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .hero-content {
+    order: 2;
+  }
 }
 
 @media (min-width: 992px) {
